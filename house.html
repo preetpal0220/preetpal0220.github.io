@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>house</title>
+</head>
+<style>
+#triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	border-bottom: 200px solid black;
+    }
+#square{
+	width: 400px;
+	height: 400px;
+	background: green;
+}
+    #window1 {
+	width: 100px;
+	height: 100px;
+	background:blue;
+    position: relative;
+    left: 40px;
+    top:20px;
+    z-index: 2;
+}
+ #window2 {
+	width: 100px;
+	height: 100px;
+	background:blue;
+    position: relative;
+    left: 250px;
+    bottom:80px;
+    z-index: 2;
+}
+#door{
+    width: 100px;
+	height: 152px;
+    position:relative;
+    left:150px;
+    top:48px;
+	background:blue;
+    z-index: 2;
+}
+
+
+</style>
+<body>
+<div id="triangle-up">
+</div>
+<div id="square">
+<div id="window1"></div>
+<div id="window2"></div>
+<div id="door"></div>
+</div>
+
+</body>
+</html>
